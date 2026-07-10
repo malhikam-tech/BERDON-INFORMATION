@@ -26,21 +26,18 @@ export default function InformasiKomunitasView({
             Bureau for Education and Research In Development of Open Notion
           </h2>
           <p className="font-mono text-[10px] text-zinc-400 uppercase tracking-widest mt-1">
-            BERDON • BERDIRI 9 SEPTEMBER 2023 — SEKARANG
+            𝐁𝐄𝐑𝐃𝐎𝐍 • 9 SEPTEMBER 2023 — SEKARANG
           </p>
 
           <p className="text-zinc-400 text-xs md:text-sm mt-4 font-light leading-relaxed text-justify">
-            BERDON adalah wadah akademis independen yang dibentuk untuk memajukan penelitian, pendidikan, 
-            serta pengembangan pemikiran terbuka secara kolaboratif. Kami percaya bahwa pengetahuan adalah milik bersama 
-            dan riset harus bebas dari hambatan eksklusivitas. Berpegang teguh pada komitmen keilmuan dan kebersamaan, 
-            kami terus beroperasi sebagai simpul sinergi intelektual nasional.
+            BERDON (9 September 2023 - Sekarang) adalah organisasi yang berfokus pada pengembangan pendidikan, sejarah, dan konsep² intelektual terbuka.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8 border-t border-zinc-900 pt-6">
             <div className="flex items-start gap-2">
               <Info className="h-4 w-4 text-zinc-500 mt-0.5 flex-shrink-0" />
               <div>
-                <h4 className="font-display font-medium text-[11px] text-zinc-300 uppercase">Motto Utama</h4>
+                <h4 className="font-display font-medium text-[11px] text-zinc-300 uppercase">Motto 𝐁𝐄𝐑𝐃𝐎𝐍</h4>
                 <p className="font-serif italic text-[11px] text-zinc-400 mt-0.5">"Unitas et Scientia Vincere Nos Ducunt"</p>
                 <p className="text-[9px] font-mono text-zinc-600">(Persatuan & Ilmu Pengetahuan Menuntun Kita Menuju Kemenangan)</p>
               </div>
@@ -59,11 +56,10 @@ export default function InformasiKomunitasView({
             <div className="flex items-start gap-2">
               <Compass className="h-4 w-4 text-zinc-500 mt-0.5 flex-shrink-0" />
               <div>
-                <h4 className="font-display font-medium text-[11px] text-zinc-300 uppercase">Tiga Misi Utama</h4>
+                <h4 className="font-display font-medium text-[11px] text-zinc-300 uppercase">Misi</h4>
                 <ul className="text-[10px] text-zinc-400 mt-0.5 font-light list-decimal list-inside space-y-1">
-                  <li>Riset berstandar terbuka</li>
-                  <li>Inovasi edukasi inklusif</li>
-                  <li>Sinergitas lintas pakar</li>
+                  <li>Meningkatkan mutu pendidikan & wawasan sejarah</li>
+                  <li>Mengembangkan pola pikir terbuka dan kritis</li>
                 </ul>
               </div>
             </div>
@@ -79,7 +75,7 @@ export default function InformasiKomunitasView({
               Warta & Buletin Komunitas
             </h3>
             <p className="font-mono text-[9px] text-zinc-500 uppercase mt-0.5">
-              Rilis resmi, pengumuman, dan arsip keanggotaan Biro BERDON
+              Rilis resmi, pengumuman, dan arsip milik 𝐁𝐄𝐑𝐃𝐎𝐍
             </p>
           </div>
           <span className="font-mono text-[9px] text-zinc-400 border border-zinc-800 bg-zinc-950 px-2 py-0.5 rounded">
