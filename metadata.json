@@ -1,0 +1,6 @@
+{
+  "name": "BERDON Information Center",
+  "description": "Pusat Informasi Resmi Komunitas BERDON (Bureau for Education and Research In Development of Open Notion)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
