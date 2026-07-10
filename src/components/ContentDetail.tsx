@@ -42,8 +42,14 @@ export default function ContentDetail({ item, onLike, onBack, isLiked }: Content
           Kembali ke Daftar
         </button>
         <div className="flex items-center gap-2">
-          <span className="font-mono text-[9px] text-zinc-500 uppercase">
-            Kategori: <strong className="text-zinc-300">{item.category}</strong>
+          <span className="font-mono text-[9px] text-zinc-500 uppercase tracking-wider">
+            Kategori: <strong className="text-zinc-300">
+              {item.category === 'artikel' && 'Artikel'}
+              {item.category === 'materi' && 'Materi'}
+              {item.category === 'berita' && 'Berita'}
+              {item.category === 'arsip' && 'Arsip'}
+              {item.category === 'info_komunitas' && 'Info Komunitas'}
+            </strong>
           </span>
         </div>
       </div>

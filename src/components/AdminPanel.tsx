@@ -387,14 +387,14 @@ export default function AdminPanel({
                 onChange={(e) => setFormCategory(e.target.value as ContentCategory)}
                 className="w-full bg-black border border-zinc-800 rounded px-3 py-2 text-xs text-white focus:outline-none focus:border-zinc-500 font-mono transition-colors"
               >
-                <option value="artikel">Artikel (Kajian Ilmiah)</option>
-                <option value="materi">Materi (Bahan Ajar / Edukasi)</option>
-                <option value="berita">Berita (Warta Pendidikan)</option>
-                <option value="arsip">Arsip (Dokumentasi Sejarah)</option>
-                <option value="info_komunitas">Informasi Komunitas (Pengumuman Intern)</option>
+                <option value="artikel">Artikel</option>
+                <option value="materi">Materi</option>
+                <option value="berita">Berita</option>
+                <option value="arsip">Arsip</option>
+                <option value="info_komunitas">Info Komunitas</option>
               </select>
               <p className="text-[9px] font-mono text-zinc-500 mt-1 uppercase">
-                PILIH "INFORMASI KOMUNITAS" AGAR DITAMPILKAN DI HALAMAN INFO KOMUNITAS TERPISAH.
+                PILIH "INFO KOMUNITAS" AGAR DITAMPILKAN DI HALAMAN INFO KOMUNITAS TERPISAH.
               </p>
             </div>
 
@@ -405,47 +405,26 @@ export default function AdminPanel({
               </span>
 
               {/* Upload input */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                <div className="border border-dashed border-zinc-800 hover:border-zinc-700 bg-zinc-950 p-3 rounded text-center flex flex-col justify-center items-center">
-                  <Upload className="h-5 w-5 text-zinc-500 mb-1.5" />
-                  <span className="font-mono text-[9px] text-zinc-400 uppercase">
-                    {uploadingFile ? 'Mengunggah...' : 'Unggah ke Supabase Storage'}
-                  </span>
-                  <input
-                    type="file"
-                    ref={fileInputRef}
-                    accept="image/*"
-                    onChange={handleFileUpload}
-                    className="hidden"
-                  />
-                  <button
-                    type="button"
-                    onClick={() => fileInputRef.current?.click()}
-                    disabled={uploadingFile}
-                    className="mt-2 border border-zinc-800 bg-black hover:border-zinc-500 text-zinc-400 hover:text-white px-3 py-1 rounded font-mono text-[9px] uppercase tracking-wider transition-all"
-                  >
-                    Pilih File Gambar
-                  </button>
-                </div>
-
-                <div className="flex flex-col justify-between">
-                  <div>
-                    <label className="block font-mono text-[9px] uppercase text-zinc-500 mb-1">
-                      Atau Tempel URL Gambar Manual
-                    </label>
-                    <input
-                      type="url"
-                      value={formImageUrl}
-                      onChange={(e) => setFormImageUrl(e.target.value)}
-                      placeholder="https://images.unsplash.com/..."
-                      className="w-full bg-zinc-950 border border-zinc-800 rounded px-2.5 py-1.5 text-[10.5px] text-white placeholder-zinc-700 focus:outline-none focus:border-zinc-500 font-mono"
-                    />
-                  </div>
-                  <div className="text-[9px] font-mono text-zinc-600 leading-normal mt-2">
-                    Gunakan Unsplash URL jika Anda tidak ingin mengunggah file. <br />
-                    Contoh: <code>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe</code>
-                  </div>
-                </div>
+              <div className="border border-dashed border-zinc-800 hover:border-zinc-700 bg-zinc-950 p-4 rounded text-center flex flex-col justify-center items-center">
+                <Upload className="h-6 w-6 text-zinc-500 mb-1.5" />
+                <span className="font-mono text-[10px] text-zinc-400 uppercase">
+                  {uploadingFile ? 'Mengunggah...' : 'Unggah ke Supabase Storage'}
+                </span>
+                <input
+                  type="file"
+                  ref={fileInputRef}
+                  accept="image/*"
+                  onChange={handleFileUpload}
+                  className="hidden"
+                />
+                <button
+                  type="button"
+                  onClick={() => fileInputRef.current?.click()}
+                  disabled={uploadingFile}
+                  className="mt-2.5 border border-zinc-800 bg-black hover:border-zinc-500 text-zinc-400 hover:text-white px-3 py-1.5 rounded font-mono text-[9px] uppercase tracking-wider transition-all"
+                >
+                  Pilih File Gambar
+                </button>
               </div>
 
               {/* Upload Instructions for User */}
@@ -468,12 +447,12 @@ export default function AdminPanel({
               {/* Image preview */}
               {formImageUrl && (
                 <div className="flex items-center gap-3 border-t border-zinc-900 pt-3">
-                  <div className="h-10 w-16 bg-zinc-950 border border-zinc-800 rounded overflow-hidden">
+                  <div className="h-10 w-16 bg-zinc-950 border border-zinc-800 rounded overflow-hidden flex-shrink-0">
                     <img src={formImageUrl} alt="Preview" className="h-full w-full object-cover filter grayscale" />
                   </div>
-                  <div className="font-mono text-[9px] text-zinc-500 break-all leading-normal">
+                  <div className="font-mono text-[9px] text-zinc-500 break-all leading-normal flex-grow">
                     <span>URL Gambar Aktif:</span>
-                    <span className="block text-zinc-400">{formImageUrl}</span>
+                    <span className="block text-zinc-400 select-all">{formImageUrl}</span>
                   </div>
                 </div>
               )}

@@ -301,11 +301,11 @@ export default function App() {
                         </span>
                         <div className="flex flex-col gap-1 border border-zinc-900 bg-zinc-950 rounded p-1">
                           {[
-                            { value: 'semua', label: 'Semua Publikasi' },
-                            { value: 'artikel', label: 'Artikel & Riset' },
-                            { value: 'materi', label: 'Bahan Ajar / Materi' },
-                            { value: 'berita', label: 'Warta Pendidikan' },
-                            { value: 'arsip', label: 'Arsip Piagam' }
+                            { value: 'semua', label: 'Semua' },
+                            { value: 'artikel', label: 'Artikel' },
+                            { value: 'materi', label: 'Materi' },
+                            { value: 'berita', label: 'Berita' },
+                            { value: 'arsip', label: 'Arsip' }
                           ].map((tab) => (
                             <button
                               key={tab.value}
