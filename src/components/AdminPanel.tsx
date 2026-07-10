@@ -408,7 +408,7 @@ export default function AdminPanel({
               <div className="border border-dashed border-zinc-800 hover:border-zinc-700 bg-zinc-950 p-4 rounded text-center flex flex-col justify-center items-center">
                 <Upload className="h-6 w-6 text-zinc-500 mb-1.5" />
                 <span className="font-mono text-[10px] text-zinc-400 uppercase">
-                  {uploadingFile ? 'Mengunggah...' : 'Unggah ke Supabase Storage'}
+                  {uploadingFile ? 'Mengunggah...' : 'Unggah Gambar'}
                 </span>
                 <input
                   type="file"
@@ -432,7 +432,7 @@ export default function AdminPanel({
                 <div className="bg-zinc-950 border border-zinc-800 rounded p-3 space-y-1.5">
                   <div className="flex items-center gap-1.5 text-zinc-400 font-mono text-[9px] uppercase">
                     <HelpCircle className="h-3 w-3 text-zinc-500" />
-                    Panduan Konfigurasi Supabase Storage:
+                    Panduan Konfigurasi Supabase Storage (Tim IT):
                   </div>
                   <ol className="list-decimal list-inside text-[9px] text-zinc-500 font-mono leading-relaxed space-y-0.5 pl-1">
                     <li>Masuk ke Dashboard Supabase Anda</li>
