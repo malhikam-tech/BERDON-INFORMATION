@@ -264,12 +264,12 @@ export default function App() {
                       {/* Brand Statement Card */}
                       <div className="border border-zinc-900 bg-zinc-950/40 p-4 rounded-md">
                         <span className="font-mono text-[8px] text-zinc-500 uppercase tracking-wider block mb-1">
-                          STATISTIK BIRO
+                          𝐁𝐄𝐑𝐃𝐎𝐍 𝐂𝐄𝐍𝐓𝐄𝐑
                         </span>
                         <div className="flex items-center gap-1.5">
                           <BookOpen className="h-4 w-4 text-zinc-400" />
                           <h4 className="font-display font-medium text-xs text-white uppercase tracking-tight">
-                            Pusat Kajian Terbuka
+                            Pusat Informasi Komunitas
                           </h4>
                         </div>
                         <p className="text-[10px] text-zinc-400 mt-2 leading-relaxed font-light">
@@ -328,7 +328,7 @@ export default function App() {
                       {/* Grid Header Info */}
                       <div className="flex items-center justify-between border-b border-zinc-900 pb-2.5">
                         <span className="font-mono text-[9px] text-zinc-500 uppercase">
-                          Katalog Hasil Penelitian & Edukasi
+                          Katalog Hasil Pencarian
                         </span>
                         <span className="font-mono text-[9px] text-zinc-400">
                           {filteredInformasiContents.length} publikasi ditemukan
@@ -343,7 +343,7 @@ export default function App() {
                             Tidak ada naskah publikasi ditemukan
                           </p>
                           <p className="text-[9px] text-zinc-600 mt-1 font-mono">
-                            Coba ubah kata kunci pencarian Anda atau segarkan database.
+                            Coba ubah kata kunci pencarian Anda atau segarkan halaman.
                           </p>
                         </div>
                       ) : (
