@@ -20,7 +20,7 @@ export default function InformasiKomunitasView({
 
         <div className="relative z-10 max-w-3xl">
           <span className="font-mono text-[9px] uppercase tracking-widest text-zinc-500 border border-zinc-800 px-2 py-1 rounded bg-black">
-            Profil Biro
+            Profil Komunitas
           </span>
           <h2 className="font-display font-bold text-xl md:text-3xl text-white tracking-tight mt-4">
             Bureau for Education and Research In Development of Open Notion
@@ -30,7 +30,7 @@ export default function InformasiKomunitasView({
           </p>
 
           <p className="text-zinc-400 text-xs md:text-sm mt-4 font-light leading-relaxed text-justify">
-            BERDON (9 September 2023 - Sekarang) adalah organisasi yang berfokus pada pengembangan pendidikan, sejarah, dan konsep² intelektual terbuka.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8 border-t border-zinc-900 pt-6">
@@ -39,16 +39,16 @@ export default function InformasiKomunitasView({
               <div>
                 <h4 className="font-display font-medium text-[11px] text-zinc-300 uppercase">Motto 𝐁𝐄𝐑𝐃𝐎𝐍</h4>
                 <p className="font-serif italic text-[11px] text-zinc-400 mt-0.5">"Unitas et Scientia Vincere Nos Ducunt"</p>
-                <p className="text-[9px] font-mono text-zinc-600">(Persatuan & Ilmu Pengetahuan Menuntun Kita Menuju Kemenangan)</p>
+                <p className="text-[9px] font-mono text-zinc-600">"Persatuan & Ilmu Pengetahuan Menuntun Kita Menuju Kemenangan"</p>
               </div>
             </div>
 
             <div className="flex items-start gap-2">
               <Target className="h-4 w-4 text-zinc-500 mt-0.5 flex-shrink-0" />
               <div>
-                <h4 className="font-display font-medium text-[11px] text-zinc-300 uppercase">Visi Terbuka</h4>
+                <h4 className="font-display font-medium text-[11px] text-zinc-300 uppercase">Visi</h4>
                 <p className="text-[10px] text-zinc-400 mt-0.5 font-light leading-snug">
-                  Mewujudkan ekosistem inklusif untuk riset berdaulat dan penyebaran ilmu pengetahuan bebas bias.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
                 </p>
               </div>
             </div>
