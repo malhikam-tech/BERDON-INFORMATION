@@ -132,8 +132,8 @@ export default function ContentDetail({ item, onLike, onBack, isLiked }: Content
         {/* Article Footer & Interactive Action Button */}
         <div className="border-t border-zinc-800 mt-12 pt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <div className="font-mono text-[9px] text-zinc-500 leading-snug">
-            <div>PENERBIT: DEPARTEMEN PENELITIAN & PUBLIKASI BERDON</div>
-            <div>DOKUMEN INTEGRITAS: VERIFIKASI DIGITAL BERDON-OK</div>
+            <div>𝐏𝐄𝐍𝐄𝐑𝐁𝐈𝐓: 𝐓𝐈𝐌 𝐑𝐄𝐃𝐀𝐊𝐒𝐈 𝐁𝐄𝐑𝐃𝐎𝐍</div>
+            <div>𝐒𝐓𝐀𝐓𝐔𝐒: 𝐃𝐈𝐕𝐄𝐑𝐈𝐅𝐈𝐊𝐀𝐒𝐈</div>
           </div>
 
           <div className="flex items-center gap-3">
